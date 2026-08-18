@@ -1,0 +1,83 @@
+{
+  "classification_top_features": {
+    "disposable_income": 0.17433491349220276,
+    "requested_amount": 0.10838594287633896,
+    "current_emi_amount": 0.0877915546298027,
+    "requested_tenure": 0.0819995179772377,
+    "house_type_Rented": 0.043151337653398514,
+    "credit_score": 0.04268363490700722,
+    "employment_type_Private": 0.03722040355205536,
+    "monthly_rent": 0.03404884785413742,
+    "monthly_salary": 0.03264329209923744,
+    "debt_to_income": 0.031160853803157806,
+    "emi_scenario_Vehicle EMI": 0.030586587265133858,
+    "employment_type_Self-employed": 0.029945695772767067,
+    "bank_balance": 0.02841564640402794,
+    "emi_scenario_Personal Loan EMI": 0.0273517444729805,
+    "expense_to_income": 0.02104882150888443
+  },
+  "regression_top_features": {
+    "disposable_income": 0.5986706018447876,
+    "current_emi_amount": 0.1073465570807457,
+    "house_type_Rented": 0.04120587185025215,
+    "expense_to_income": 0.03797577694058418,
+    "credit_score": 0.03626512363553047,
+    "monthly_salary": 0.030296113342046738,
+    "debt_to_income": 0.024966439232230186,
+    "employment_type_Self-employed": 0.018853966146707535,
+    "employment_type_Private": 0.01883152686059475,
+    "bank_balance": 0.016594666987657547,
+    "monthly_rent": 0.013291941024363041,
+    "groceries_utilities": 0.013229764066636562,
+    "years_of_employment": 0.012682223692536354,
+    "college_fees": 0.008061077445745468,
+    "school_fees": 0.0037992780562490225
+  },
+  "model_comparison": {
+    "classification": [
+      {
+        "model": "Logistic Regression",
+        "macro_f1": 0.63,
+        "time_s": 17
+      },
+      {
+        "model": "Random Forest",
+        "macro_f1": 0.64,
+        "time_s": 60
+      },
+      {
+        "model": "XGBoost (Final)",
+        "macro_f1": 0.835,
+        "time_s": 35
+      }
+    ],
+    "regression": [
+      {
+        "model": "Linear Regression",
+        "r2": 0.712,
+        "mae": 2967.64,
+        "time_s": 12
+      },
+      {
+        "model": "Random Forest",
+        "r2": 0.964,
+        "mae": 703.14,
+        "time_s": 110
+      },
+      {
+        "model": "XGBoost (Final)",
+        "r2": 0.9925,
+        "mae": 259.25,
+        "time_s": 16
+      }
+    ]
+  },
+  "dataset_stats": {
+    "total_records": 404800,
+    "eligibility_distribution": {
+      "Not_Eligible": 77.3,
+      "Eligible": 18.4,
+      "High_Risk": 4.3
+    }
+  }
+}
