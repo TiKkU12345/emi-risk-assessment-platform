@@ -1,4 +1,4 @@
-# EMI Risk Assessment Platform ||  [live](https://emi-risk-assessment-platform.streamlit.app/%E2%89%A1%C6%92%C3%B6%C2%AB_Predict)
+# EMI Risk Assessment Platform ||  [Live](https://emi-risk-assessment-platform.streamlit.app/%E2%89%A1%C6%92%C3%B6%C2%AB_Predict)
 
 
 A Streamlit web application for predicting loan/EMI eligibility and maximum affordable monthly EMI, using models trained on 404,800 historical applications.
