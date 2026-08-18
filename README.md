@@ -50,4 +50,4 @@ Deployed on [Streamlit Community Cloud](https://streamlit.io/cloud), connected t
 
 ## Tech stack
 
-Python, scikit-learn, XGBoost, MLflow (experiment tracking during model development), Streamlit, SQLite.
+Python, scikit-learn, XGBoost, MLflow (experiment tracking during model development), Streamlit.
